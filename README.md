@@ -1,7 +1,6 @@
 # My-ai
 #It's my normal and simple ai
 
-# Online Python - IDE, Editor, Compiler, Interpreter
 
 def sum(a, b):
     return (a + b)
