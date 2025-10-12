@@ -1,0 +1,9 @@
+#its my google voice assistant 
+from gtts import gTTS
+import os
+
+text = "Hello! My name is Vikash. I can speak using gTTS."
+tts = gTTS(text=text, lang='en')
+tts.save("english.mp3")
+
+os.system("mpv english.mp3")
